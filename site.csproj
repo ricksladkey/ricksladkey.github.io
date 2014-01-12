@@ -40,6 +40,7 @@
     <Content Include="assets\return-values-screenshot.png" />
     <Content Include="css\main.css" />
     <Content Include="css\syntax.css" />
+    <Content Include="favicon.ico" />
     <Content Include="index.html" />
     <Content Include="site.html" />
     <Content Include="_layouts\default.html" />
