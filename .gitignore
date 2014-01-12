@@ -1,2 +1,4 @@
+*.suo
 .bundle/install.log
+_build
 _site
