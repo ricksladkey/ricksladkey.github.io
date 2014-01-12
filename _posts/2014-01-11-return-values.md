@@ -13,7 +13,7 @@ Check out this incredibly useful summary of the four most relevant return values
 
 * No more stepping into the function just to see what its arguments were
 * No more wishing you **had** stepped into the function
-* No more //drilling down// by hand in the locals window
+* No more _drilling down_ by hand in the locals window
 * No more copying and pasting into the watch window
 * No more getting exceptions thrown for re-calling methods with side-effects from the immediate window
 
