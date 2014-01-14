@@ -52,6 +52,7 @@
     <None Include="_config.yml" />
     <None Include="_posts\2014-01-02-new-site.md" />
     <None Include="_posts\2014-01-11-return-values.md" />
+    <None Include="_posts\2014-01-14-jekyll-environment-using-visual-studio.md" />
     <None Include="_posts\welcome-to-jekyll.markdown" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -2,7 +2,7 @@
 layout: post
 title:  "Debugging Return Values in Visual Studio"
 date:   2014-01-11 23:00:00
-categories: jekyll update
+categories: debugging visualstudio
 ---
 
 Debugging functions that use other function's return values as their arguments just go a whole lot easier with Visual Studio 2013.

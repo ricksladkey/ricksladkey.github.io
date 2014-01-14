@@ -22,14 +22,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   color: #ccc;
+  margin: 1em 0;
 }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #6a6; text-decoration:none; }
-a:hover   { color: #333; text-decoration:none; }
-a:visited { color: #8a8; text-decoration:none; }
+a         { color: #8a8; text-decoration:none; }
+a:hover   { color: #aca; text-decoration:none; }
+a:visited { color: #686; text-decoration:none; }
 
 /*****************************************************************************/
 /*
@@ -145,6 +146,7 @@ a:visited { color: #8a8; text-decoration:none; }
   border: 1px solid #ddd;
   background-color: #111;
   color: #ccc;
+  padding: 2px 4px
 }
 
 .post pre code {
