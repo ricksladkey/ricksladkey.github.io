@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GitHub Pages Jekyll Environment using Visual Studio"
-date:   2014-01-14 23:00:00
+date:   2014-01-14 01:00:00
 categories: jekyll visualstudio
 ---
 
