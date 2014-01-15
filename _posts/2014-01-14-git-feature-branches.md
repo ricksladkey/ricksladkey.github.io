@@ -13,7 +13,7 @@ Feature branches are practial in Git mostly because branches are so lightweight 
 All non-trivial _develop_ work should be done in a feature branch.  Why?
 
 
-* Focused _develop_ proceeds for a stable starting point
+* Focused development proceeds for a stable starting point
 * All commits in the feature branch are directly related to the feature
 * Commits in the feature branch are linear since the branch was forked
 * Commits can be made frequently
