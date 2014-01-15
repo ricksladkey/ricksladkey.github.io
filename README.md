@@ -9,6 +9,7 @@ This is [my](http://ricksladkey.github.io) personal [GitHub Pages](http://pages.
 * [Visual Studio 2010+](http://www.visualstudio.com/) as an IDE
 * [VsVim](https://github.com/jaredpar/VsVim) for vi-mode awesomeness
 * [Markdown Mode Extension](https://github.com/NoahRic/MarkdownMode) for WYSIWYG markdown preview
+* [Fix File Encoding](http://vlasovstudio.com/fix-file-encoding/) to keep Visual Studio from adding pesky BOMs to markdown text files
 * [Jekyll](https://github.com/jekyll/jekyll) to generate the site and serve it locally
 * [Bundler](https://github.com/bundler/bundler/) to keep your Ruby gems in sync with GitHub
 * [Visual Studio Tools for Git](http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c) _or_ [Git Source Control Provider](https://github.com/yysun/Git-Source-Control-Provider) to push updates to [GitHub](https://github.com)
@@ -19,7 +20,7 @@ This is [my](http://ricksladkey.github.io) personal [GitHub Pages](http://pages.
 
 * Open the `site.sln` in Visual Studio
 * Select the `_posts` folder of the `site` project in the _Solution Explorer_.
-* Create a new post using `Ctrl+Shift+A`, select _Text File_, and name it `NNNN-NN-NN-title.md`
+* Create a new post using `Ctrl+Shift+A`, select _Text File_, and name it `NNNN-NN-NN-title.md` (careful of byte order marks!)
 * Use the _Show preview window_ button to show the _Markdown Preview_ tool window (dock it with _Solution Explorer_)
 * Write your post in Markdown!
 * Press `Ctrl+F5` to start Jekyll (via bundle) serving your site
