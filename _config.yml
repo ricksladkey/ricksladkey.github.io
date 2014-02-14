@@ -1,4 +1,4 @@
 name: jrs
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'site.html', 'jekyll.cmd', 'site.sln', 'site.csproj', 'site.csproj.user', 'site.v11.suo', 'site.v12.suo']

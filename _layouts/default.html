@@ -12,6 +12,22 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <!-- mathjax config similar to math.stackexchange -->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+            inlineMath: [ ['$', '$'] ],
+            displayMath: [ ['$$', '$$']],
+            processEscapes: true,
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+            },
+            messageStyle: "none",
+            "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+            });
+        </script>
+        <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+
         <!-- Google Analytics -->
         <script>
             (function (i, s, o, g, r, a, m) {
@@ -48,7 +64,7 @@
               <p>
                 <a href="https://github.com/ricksladkey">github.com/ricksladkey</a><br />
                 <a href="https://twitter.com/ricksladkey">twitter.com/ricksladkey</a><br />
-                <a href="https://google.com/+RickSladkey/">https://google.com/+RickSladkey/<a><br />
+                <a href="https://google.com/+RickSladkey/">https://google.com/+RickSladkey/</a><br />
               </p>
             </div>
           </div>

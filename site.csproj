@@ -54,7 +54,12 @@
     <None Include="_posts\2014-01-11-return-values.md" />
     <None Include="_posts\2014-01-14-git-feature-branches.md" />
     <None Include="_posts\2014-01-14-jekyll-environment-using-visual-studio.md" />
+    <None Include="_posts\2014-02-14-aofa-week1.md" />
+    <None Include="_posts\smooth-scroll.md" />
     <None Include="_posts\welcome-to-jekyll.markdown" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
